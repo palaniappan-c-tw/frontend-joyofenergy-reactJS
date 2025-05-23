@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "test-watch": "jest --watchAll",
-    "start": "snowpack dev",
+    "start": "vite dev",
     "format": "prettier -w ./*.js components/*.jsx ./*.html"
   },
   "contributors": [
@@ -31,7 +31,8 @@
     "babel-jest": "^27.5.1",
     "jest": "^26.6.3",
     "prettier": "^2.3.1",
-    "snowpack": "^3.2.2"
+    "vite": "^6.3.5",
+    "@vitejs/plugin-react": "^4.5.0"
   },
   "dependencies": {
     "@babel/preset-env": "^7.16.11",

@@ -23,7 +23,7 @@ The application uses a "utility" CSS pattern from [BassCSS](https://basscss.com/
 $ npm start
 ```
 
-The application will launch at `http://localhost:8080`.
+The application will launch at `http://localhost:5173`.
 
 ### Run the tests
 
