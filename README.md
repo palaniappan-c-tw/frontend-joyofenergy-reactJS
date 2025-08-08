@@ -11,7 +11,7 @@ another ThoughtWorker to progress with the current user stories. This is your ch
 
 ## Requirements
 
-The project requires [Node v18](https://nodejs.org/en/download/) or higher.
+The project requires [Node v20](https://nodejs.org/en/download/) or higher.
 
 ### Styling
 
