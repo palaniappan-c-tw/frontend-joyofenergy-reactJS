@@ -2,8 +2,9 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import { App } from "./App.jsx";
+import { vi } from "vitest";
 
-jest.mock("../utils/chart.js");
+vi.mock("../utils/chart.js");
 
 describe("App", () => {
   it("renders energy dashboard", async () => {
