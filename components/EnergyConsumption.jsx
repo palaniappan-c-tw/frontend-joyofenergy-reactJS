@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { renderChart } from "../utils/chart.js";
 import { groupByDay, sortByTime } from "../utils/reading";
 

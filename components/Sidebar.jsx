@@ -1,5 +1,3 @@
-import React from "react";
-
 const DeviceSection = ({ title, usage }) => (
   <div className="shadow-2 roundedMore bg-super-light-grey mb1">
     <p className="darkgray pl2 pt1 pb1">{title}</p>

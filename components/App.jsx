@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Sidebar } from "./Sidebar.jsx";
 import { EnergyConsumption } from "./EnergyConsumption.jsx";
 import { getReadings } from "../utils/reading";
@@ -6,9 +6,8 @@ import { getReadings } from "../utils/reading";
 export const App = () => {
   const [readings, setReadings] = useState();
 
-  useEffect(async () => {
-    const result = await getReadings();
-    setReadings(result);
+  useEffect(() => {
+    getReadings().then(setReadings);
   }, []);
 
   if (!readings) {
