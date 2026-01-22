@@ -53,11 +53,15 @@ export const renderChart = (containerId, readings) => {
         y: {
           grid: {
             display: false,
+            borderColor: "black",
+            borderWidth: 10,
           },
         },
         x: {
           grid: {
             display: false,
+            borderColor: "red",
+            borderWidth: 10,
           },
         },
       },
