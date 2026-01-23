@@ -2,3 +2,5 @@ node_modules
 .idea/
 .DS_Store
 .agent-upgrader/
+.vscode/
+.tsupgrader/
